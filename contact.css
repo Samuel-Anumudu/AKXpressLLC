@@ -48,17 +48,14 @@ body {
   justify-content: center;
 }
 
-.contact-nav ul li:hover {
-  -webkit-animation: rotate 2s linear;
-  -moz-animation: rotate 2s linear;
-  animation: rotate 0.5s linear normal;
+.contact-nav ul li {
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
 }
 
-@keyframes rotate {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+.contact-nav ul li:hover {
+  top: -10px;
 }
 
 .contact-nav a {
