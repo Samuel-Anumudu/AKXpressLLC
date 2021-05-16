@@ -98,7 +98,7 @@ body {
 
 /* ----------------------------------- CONTACT HEADER STYLING --------------------------------------*/
 .contact-header {
-  background-image: url(./images/contact.jpeg);
+  background-image: url(./images/contct.png);
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -120,7 +120,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   z-index: -1;
 }
 
